@@ -7,3 +7,11 @@ a:hover {
   cursor: pointer;
   color: #800404;
 }
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: red;
+}
