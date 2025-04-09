@@ -40,3 +40,21 @@ a:hover {
   transition: font-size .1s ease-in-out;
 }
 
+.activity {
+  display: inline-block;
+  text-decoration: none;
+  align-content: center;
+  /* Ombres pour un effet surélevé */
+  box-shadow: 5px 5px 10px #c1c1c1, -5px -5px 10px #ffffff;
+  transition: all 0.3s ease; /* Animation fluide pour interactions */
+}
+
+.activity:hover {
+  /* Plus d'ombre pour accentuer la surélévation */
+  box-shadow: 8px 8px 15px #b0b0b0, -8px -8px 15px #ffffff;
+}
+
+.activity:active {
+  /* Effet d'enfoncement */
+  box-shadow: inset 5px 5px 10px #c1c1c1, inset -5px -5px 10px #ffffff;
+}
